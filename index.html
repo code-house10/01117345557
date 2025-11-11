@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-TCRZB65W');</script>
+<!-- End Google Tag Manager -->
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-5KZK4TJ7');</script>
+<!-- End Google Tag Manager -->
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>مكة لنقل الأثاث - خدمات نقل الأثاث في مصر</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts: Cairo for Arabic, Inter for general text -->
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        /* Custom styles for the Cairo font and general typography */
+        body {
+            font-family: 'Cairo', 'Inter', sans-serif;
+            background-color: #ffffff; /* Page background */
+            color: #222222; /* Default text color */
+        }
+        .text-hot-pink {
+            color: #c70067;
+        }
+        .bg-hot-pink {
+            background-color: #c70067;
+        }
+        .bg-dark-gray {
+            background-color: #303030;
+        }
+        .bg-medium-gray {
+            background-color: #555555;
+        }
+        .text-dark-gray {
+            color: #222222;
+        }
+        
+        /* Mobile menu specific styles */
+        .mobile-menu-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.7);
+            z-index: 40; /* Below nav, above other content */
+            display: none; /* Hidden by default */
+        }
+        .mobile-menu-overlay.active {
+            display: block;
+        }
+        .mobile-menu {
+            position: fixed;
+            top: 0;
+            right: -100%; /* Start off-screen to the right */
+            width: 70%; /* Adjust width as needed */
+            max-width: 300px;
+            height: 100%;
+            background-color: #000;
+            z-index: 50;
+            transition: right 0.3s ease-in-out;
+            padding-top: 20px;
+            box-shadow: -2px 0 5px rgba(0,0,0,0.5);
+        }
+        .mobile-menu.active {
+            right: 0; /* Slide in */
+        }
+
+        /* Modal transition styles */
+        #confirmation-modal.hidden #modal-content {
+            transform: scale(0.95);
+            opacity: 0;
+        }
+        #confirmation-modal #modal-content {
+            transition: transform 0.2s ease-out, opacity 0.2s ease-out;
+        }
+
+        /* Animation for phone icon in modal */
+        @keyframes fa-beat {
+            0% { transform: scale(1); }
+            5% { transform: scale(1.25); }
+            20% { transform: scale(1); }
+            30% { transform: scale(1); }
+            35% { transform: scale(1.25); }
+            50% { transform: scale(1); }
+            55% { transform: scale(1.25); }
+            70% { transform: scale(1); }
+        }
+        .fa-beat {
+            animation: fa-beat 1.5s ease-in-out infinite;
+        }
+    </style>
+</head>
+<body class="antialiased">
+
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TCRZB65W"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5KZK4TJ7"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+    <!-- 1. Top Section (Header) -->
+    <header class="bg-white py-4 px-6 md:px-12 shadow-sm">
+        <div class="container mx-auto flex justify-between items-center">
+            <!-- Left: Contact Number -->
+            <div class="text-black text-lg md:text-xl font-bold flex items-center">
+                <i class="fas fa-phone-alt text-hot-pink text-xl ml-2"></i>
+                <span class="text-hot-pink text-2xl md:text-3xl call-trigger cursor-pointer">01117345557</span>
+            </div>
+
+            <!-- Right: Empty div, as logo and name moved to nav -->
+            <div></div>
+        </div>
+    </header>
+
+    <!-- 2. Navigation Bar -->
+    <nav class="bg-black py-4 shadow-md relative">
+        <div class="container mx-auto flex justify-between items-center px-4">
+            <!-- Company Name and Logo in Navigation Bar (Left side in RTL) -->
+            <div class="flex items-center">
+                
+                <span class="text-white text-4xl md:text-3xl font-bold mr-1">  مكة</span>
+                <span class="text-hot-pink text-2xl md:text-3xl font-bold"> ⇌ لنقل  الأثاث </span>   
+            </div>
+
+            <!-- Mobile Menu Button (Hamburger Icon) -->
+            <button id="mobile-menu-button" class="block md:hidden text-white text-2xl px-4 py-2 focus:outline-none">
+                <i class="fas fa-bars"></i>
+            </button>
+
+            <!-- Desktop Navigation -->
+            <ul class="hidden md:flex flex-wrap justify-center md:flex-row text-white text-lg font-bold">
+                <li class="mx-2 my-1 md:my-0">
+                    <a href="#" class="px-4 py-2 rounded-full bg-hot-pink hover:bg-hot-pink/90 transition-colors duration-200">الرئيسية</a>
+                </li>
+                <li class="mx-2 my-1 md:my-0">
+                    <a href="#" class="px-4 py-2 rounded-full hover:bg-gray-700 transition-colors duration-200">نقل الأثاث</a>
+                </li>
+                <li class="mx-2 my-1 md:my-0">
+                    <a href="#" class="px-4 py-2 rounded-full hover:bg-gray-700 transition-colors duration-200">تغليف الأثاث</a>
+                </li>
+                <li class="mx-2 my-1 md:my-0">
+                    <a href="#" class="px-4 py-2 rounded-full hover:bg-gray-700 transition-colors duration-200">فك وتركيب</a>
+                </li>
+                <li class="mx-2 my-1 md:my-0">
+                    <a href="#" class="px-4 py-2 rounded-full hover:bg-gray-700 transition-colors duration-200">نقل عفش وخدمات نقل متكاملة</a>
+                </li>
+            </ul>
+        </div>
+
+        <!-- Mobile Menu Overlay -->
+        <div id="mobile-menu-overlay" class="mobile-menu-overlay"></div>
+
+        <!-- Mobile Menu Sidebar -->
+        <div id="mobile-menu" class="mobile-menu">
+            <button id="close-mobile-menu" class="absolute top-4 left-4 text-white text-3xl focus:outline-none">
+                <i class="fas fa-times"></i>
+            </button>
+            <ul class="flex flex-col items-end text-white text-xl font-bold p-4">
+                <li class="my-2 w-full text-right">
+                    <a href="#" class="block px-4 py-2 rounded-full bg-hot-pink hover:bg-hot-pink/90 transition-colors duration-200">الرئيسية</a>
+                </li>
+                <li class="my-2 w-full text-right">
+                    <a href="#" class="block px-4 py-2 rounded-full hover:bg-gray-700 transition-colors duration-200">نقل الأثاث</a>
+                </li>
+                <li class="my-2 w-full text-right">
+                    <a href="#" class="block px-4 py-2 rounded-full hover:bg-gray-700 transition-colors duration-200">تغليف الأثاث</a>
+                </li>
+                <li class="my-2 w-full text-right">
+                    <a href="#" class="block px-4 py-2 rounded-full hover:bg-gray-700 transition-colors duration-200">فك وتركيب</a>
+                </li>
+                <li class="my-2 w-full text-right">
+                    <a href="#" class="block px-4 py-2 rounded-full hover:bg-gray-700 transition-colors duration-200">نقل عفش وخدمات نقل متكاملة</a>
+                </li>
+            </ul>
+            <!-- Optional: Sidebar image, if sidebar-copy.jpg is meant for this -->
+            <div class="mt-8 px-4">
+                <img src="./images/sidebar-copy.jpg" onerror="this.onerror=null;this.src='https://placehold.co/300x200/000000/FFFFFF?text=Sidebar';" alt="Sidebar Image" class="w-full rounded-lg shadow-md">
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section with Slideshow -->
+    <section class="relative h-[50vh] md:h-[70vh] overflow-hidden">
+        <!-- Slideshow Backgrounds -->
+        <div class="absolute inset-0">
+            <div class="slide absolute inset-0 bg-cover bg-center transition-opacity duration-1000 opacity-0" style="background-image: url('./images/1.jpg');" onerror="this.style.backgroundImage='url(https://placehold.co/1200x800/000000/FFFFFF?text=Slide+1)';"></div>
+            <div class="slide absolute inset-0 bg-cover bg-center transition-opacity duration-1000 opacity-0" style="background-image: url('./images/2.jpg');" onerror="this.style.backgroundImage='url(https://placehold.co/1200x800/000000/FFFFFF?text=Slide+2)';"></div>
+            <div class="slide absolute inset-0 bg-cover bg-center transition-opacity duration-1000 opacity-0" style="background-image: url('./images/3.jpg');" onerror="this.style.backgroundImage='url(https://placehold.co/1200x800/000000/FFFFFF?text=Slide+3)';"></div>
+            <div class="slide absolute inset-0 bg-cover bg-center transition-opacity duration-1000 opacity-0" style="background-image: url('./images/4.jpg');" onerror="this.style.backgroundImage='url(https://placehold.co/1200x800/000000/FFFFFF?text=Slide+4)';"></div>
+            <div class="slide absolute inset-0 bg-cover bg-center transition-opacity duration-1000 opacity-0" style="background-image: url('./images/5.jpg');" onerror="this.style.backgroundImage='url(https://placehold.co/1200x800/000000/FFFFFF?text=Slide+5)';"></div>
+            <!-- Overlay for readability -->
+            <div class="absolute inset-0 bg-black bg-opacity-50"></div>
+        </div>
+
+        <!-- CTA Content (static) -->
+        <div class="relative z-10 h-full flex items-center justify-center text-center p-6 md:p-12">
+            <div>
+                <button class="call-trigger bg-hot-pink text-white text-xl md:text-2xl font-bold px-8 py-3 rounded-full shadow-lg hover:bg-hot-pink/90 transition-colors duration-200">
+                    احصل على عرض سعر الآن
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- 3. CTA Bar (Call-to-Action Section) -->
+    <section class="bg-white py-8 px-6 md:px-12">
+        <div class="container mx-auto flex flex-col md:flex-row items-center justify-center space-y-4 md:space-y-0 md:space-x-8 md:space-x-reverse">
+            <!-- Large Phone Number Bubble -->
+            <div class="call-trigger cursor-pointer bg-dark-gray rounded-full px-6 py-3 flex items-center shadow-lg">
+                <div class="bg-white p-3 rounded-full ml-3">
+                    <i class="fas fa-phone-volume text-hot-pink text-2xl"></i>
+                </div>
+                <span class="text-white text-2xl md:text-4xl font-bold">01117345557</span>
+            </div>
+
+            <!-- Contact Button -->
+            <button class="call-trigger bg-hot-pink text-white text-xl md:text-2xl font-bold px-8 py-3 rounded-full shadow-lg hover:bg-hot-pink/90 transition-colors duration-200">
+                تواصل معنا
+            </button>
+        </div>
+    </section>
+
+    <!-- 4. Services Grid Section -->
+    <section class="py-12 px-6 md:px-12 bg-gray-50">
+        <div class="container mx-auto">
+            <h2 class="text-3xl md:text-4xl font-bold text-center mb-8 text-black">خدماتنا المميزة</h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+                <!-- Service Card 1: نقل الأثاث -->
+                <div class="bg-white rounded-lg shadow-md overflow-hidden transform hover:scale-105 transition-transform duration-300">
+                    <div class="relative">
+                        <img src="./images/2.jpg" onerror="this.onerror=null;this.src='https://placehold.co/600x400/000000/FFFFFF?text=Moving+Truck';" alt="نقل الأثاث" class="w-full h-48 object-cover">
+                        <span class="absolute top-3 right-3 bg-hot-pink text-white text-sm font-bold px-3 py-1 rounded-full">خدمة</span>
+                    </div>
+                    <div class="p-4">
+                        <h3 class="text-xl font-bold text-black mb-2">نقل الأثاث</h3>
+                        <p class="text-sm text-gray-600">اتصل بنا: <span class="font-bold text-black call-trigger cursor-pointer">01117345557</span></p>
+                    </div>
+                </div>
+                <!-- Service Card 2: تغليف الأثاث -->
+                <div class="bg-white rounded-lg shadow-md overflow-hidden transform hover:scale-105 transition-transform duration-300">
+                    <div class="relative">
+                        <img src="./images/4.jpg" onerror="this.onerror=null;this.src='https://placehold.co/600x400/000000/FFFFFF?text=Furniture+Packing';" alt="تغليف الأثاث" class="w-full h-48 object-cover">
+                        <span class="absolute top-3 right-3 bg-hot-pink text-white text-sm font-bold px-3 py-1 rounded-full">خدمة</span>
+                    </div>
+                    <div class="p-4">
+                        <h3 class="text-xl font-bold text-black mb-2">تغليف الأثاث</h3>
+                        <p class="text-sm text-gray-600">اتصل بنا: <span class="font-bold text-black call-trigger cursor-pointer">01117345557</span></p>
+                    </div>
+                </div>
+                <!-- Service Card 3: فك وتركيب الأثاث -->
+                <div class="bg-white rounded-lg shadow-md overflow-hidden transform hover:scale-105 transition-transform duration-300">
+                    <div class="relative">
+                        <img src="./images/6.jpg" onerror="this.onerror=null;this.src='https://placehold.co/600x400/000000/FFFFFF?text=Disassembly+Assembly';" alt="فك وتركيب الأثاث" class="w-full h-48 object-cover">
+                        <span class="absolute top-3 right-3 bg-hot-pink text-white text-sm font-bold px-3 py-1 rounded-full">خدمة</span>
+                    </div>
+                    <div class="p-4">
+                        <h3 class="text-xl font-bold text-black mb-2">فك وتركيب الأثاث</h3>
+                        <p class="text-sm text-gray-600">اتصل بنا: <span class="font-bold text-black call-trigger cursor-pointer">01117345557</span></p>
+                    </div>
+                </div>
+                <!-- Service Card 4: خدمات نقل متكاملة -->
+                <div class="bg-white rounded-lg shadow-md overflow-hidden transform hover:scale-105 transition-transform duration-300">
+                    <div class="relative">
+                        <img src="./images/7.jpg" onerror="this.onerror=null;this.src='https://placehold.co/600x400/000000/FFFFFF?text=Integrated+Services';" alt="خدمات نقل متكاملة" class="w-full h-48 object-cover">
+                        <span class="absolute top-3 right-3 bg-hot-pink text-white text-sm font-bold px-3 py-1 rounded-full">خدمة</span>
+                    </div>
+                    <div class="p-4">
+                        <h3 class="text-xl font-bold text-black mb-2">خدمات نقل متكاملة</h3>
+                        <p class="text-sm text-gray-600">اتصل بنا: <span class="font-bold text-black call-trigger cursor-pointer">01117345557</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 5. Two-Column Services List -->
+    <section class="py-12 px-6 md:px-12 bg-white">
+        <div class="container mx-auto grid grid-cols-1 lg:grid-cols-2 gap-8 items-start">
+            <!-- Left Column -->
+            <div class="flex flex-col items-center lg:items-start text-center lg:text-right">
+                <img src="./images/8.jpg" onerror="this.onerror=null;this.src='https://placehold.co/800x500/000000/FFFFFF?text=Movers+Loading+Truck';" alt="نقل عفش" class="w-full rounded-lg shadow-lg mb-6">
+                <h2 class="text-3xl md:text-4xl font-bold text-black mb-3">نقل عفش بجميع محافظات مصر</h2>
+                <p class="text-xl font-bold text-hot-pink mb-4 call-trigger cursor-pointer">اتصل بنا: 01117345557</p>
+                <p class="text-gray-700 leading-relaxed text-lg">
+                    نقدم خدمات نقل العفش المتكاملة في جميع أنحاء جمهورية مصر العربية، مع فريق عمل مدرب ومجهز بأحدث الأدوات لضمان نقل آمن وسريع لأثاثك. سواء كنت تنتقل داخل القاهرة أو الجيزة أو إلى أي محافظة أخرى، نحن هنا لخدمتك.
+                </p>
+            </div>
+
+            <!-- Right Column: Vertical Cards -->
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+                <!-- Card 1: فريق عمل محترف -->
+                <div class="bg-white rounded-lg shadow-md overflow-hidden pb-4">
+                    <div class="relative">
+                        <img src="./images/9.jpg" onerror="this.onerror=null;this.src='https://placehold.co/400x250/000000/FFFFFF?text=Professional+Movers';" alt="فريق عمل محترف" class="w-full h-40 object-cover">
+                        <span class="absolute top-3 right-3 bg-hot-pink text-white text-sm font-bold px-3 py-1 rounded-full">خدمة</span>
+                    </div>
+                    <div class="p-4">
+                        <h4 class="text-lg font-bold text-black mb-2">فريق عمل محترف</h4>
+                        <p class="text-gray-600 text-sm mb-4">لدينا فريق من العمالة المدربة والمتخصصة في نقل وتغليف الأثاث بعناية فائقة.</p>
+                        <button class="bg-medium-gray text-white px-6 py-2 rounded-full hover:bg-gray-600 transition-colors duration-200">اقرأ المزيد</button>
+                    </div>
+                </div>
+                <!-- Card 2: تغليف آمن -->
+                <div class="bg-white rounded-lg shadow-md overflow-hidden pb-4">
+                    <div class="relative">
+                        <img src="./images/10.jpg" onerror="this.onerror=null;this.src='https://placehold.co/400x250/000000/FFFFFF?text=Secure+Packing';" alt="تغليف آمن" class="w-full h-40 object-cover">
+                        <span class="absolute top-3 right-3 bg-hot-pink text-white text-sm font-bold px-3 py-1 rounded-full">خدمة</span>
+                    </div>
+                    <div class="p-4">
+                        <h4 class="text-lg font-bold text-black mb-2">تغليف آمن</h4>
+                        <p class="text-gray-600 text-sm mb-4">نستخدم أفضل مواد التغليف لحماية أثاثك من أي خدوش أو تلف أثناء النقل.</p>
+                        <button class="bg-medium-gray text-white px-6 py-2 rounded-full hover:bg-gray-600 transition-colors duration-200">اقرأ المزيد</button>
+                    </div>
+                </div>
+                <!-- Card 3: أحدث المعدات -->
+                <div class="bg-white rounded-lg shadow-md overflow-hidden pb-4">
+                    <div class="relative">
+                        <img src="./images/3.jpg" onerror="this.onerror=null;this.src='https://placehold.co/400x250/000000/FFFFFF?text=Modern+Equipment';" alt="أحدث المعدات" class="w-full h-40 object-cover">
+                        <span class="absolute top-3 right-3 bg-hot-pink text-white text-sm font-bold px-3 py-1 rounded-full">خدمة</span>
+                    </div>
+                    <div class="p-4">
+                        <h4 class="text-lg font-bold text-black mb-2">أحدث المعدات</h4>
+                        <p class="text-gray-600 text-sm mb-4">لدينا أسطول من السيارات المجهزة ورافعات الأثاث الحديثة لسهولة النقل.</p>
+                        <button class="bg-medium-gray text-white px-6 py-2 rounded-full hover:bg-gray-600 transition-colors duration-200">اقرأ المزيد</button>
+                    </div>
+                </div>
+                <!-- Card 4: دعم فني 24/7 -->
+                <div class="bg-white rounded-lg shadow-md overflow-hidden pb-4">
+                    <div class="relative">
+                        <img src="./images/5.jpg" onerror="this.onerror=null;this.src='https://placehold.co/400x250/000000/FFFFFF?text=24/7+Support';" alt="دعم فني" class="w-full h-40 object-cover">
+                        <span class="absolute top-3 right-3 bg-hot-pink text-white text-sm font-bold px-3 py-1 rounded-full">خدمة</span>
+                    </div>
+                    <div class="p-4">
+                        <h4 class="text-lg font-bold text-black mb-2">دعم فني 24/7</h4>
+                        <p class="text-gray-600 text-sm mb-4">خدمة عملاء متاحة على مدار الساعة للإجابة على استفساراتكم وتلبية طلباتكم.</p>
+                        <button class="bg-medium-gray text-white px-6 py-2 rounded-full hover:bg-gray-600 transition-colors duration-200">اقرأ المزيد</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 6. Repeating Services Section -->
+    <section class="py-12 px-6 md:px-12 bg-gray-50">
+        <div class="container mx-auto">
+            <h2 class="text-3xl md:text-4xl font-bold text-center mb-8 text-black">خدماتنا في المدن الرئيسية</h2>
+
+            <!-- Service Block 1: نقل أثاث القاهرة والجيزة -->
+            <div class="flex flex-col lg:flex-row items-center bg-white rounded-lg shadow-md p-6 mb-8">
+                <div class="lg:ml-6 mb-4 lg:mb-0 flex-shrink-0">
+                    <img src="./images/2.jpg" onerror="this.onerror=null;this.src='https://placehold.co/200x150/000000/FFFFFF?text=Cairo+Giza+Moving';" alt="نقل أثاث القاهرة والجيزة" class="w-48 h-36 object-cover rounded-lg shadow-sm">
+                </div>
+                <div class="text-center lg:text-right flex-grow">
+                    <h3 class="text-2xl font-bold text-black mb-2">نقل أثاث القاهرة والجيزة</h3>
+                    <p class="text-gray-700 mb-4">
+                        متخصصون في نقل الأثاث داخل القاهرة الكبرى ومحافظة الجيزة، مع توفير جميع الضمانات لسلامة منقولاتك.
+                    </p>
+                    <button class="bg-medium-gray text-white px-6 py-2 rounded-full hover:bg-gray-600 transition-colors duration-200">اقرأ المزيد</button>
+                </div>
+            </div>
+
+            <!-- Service Block 2: فك وتركيب ونقل العفش -->
+            <div class="flex flex-col lg:flex-row items-center bg-white rounded-lg shadow-md p-6 mb-8">
+                <div class="lg:ml-6 mb-4 lg:mb-0 flex-shrink-0">
+                    <img src="./images/6.jpg" onerror="this.onerror=null;this.src='https://placehold.co/200x150/000000/FFFFFF?text=Disassembly+Reassembly';" alt="فك وتركيب ونقل العفش" class="w-48 h-36 object-cover rounded-lg shadow-sm">
+                </div>
+                <div class="text-center lg:text-right flex-grow">
+                    <h3 class="text-2xl font-bold text-black mb-2">فك وتركيب ونقل العفش</h3>
+                    <p class="text-gray-700 mb-4">
+                        خدمات متكاملة تشمل فك جميع أنواع الأثاث، وتغليفه باحترافية، ونقله، ثم إعادة تركيبه في المكان الجديد.
+                    </p>
+                    <button class="bg-medium-gray text-white px-6 py-2 rounded-full hover:bg-gray-600 transition-colors duration-200">اقرأ المزيد</button>
+                </div>
+            </div>
+
+            <!-- Service Block 3: نقل أثاث بأسعار مناسبة -->
+            <div class="flex flex-col lg:flex-row items-center bg-white rounded-lg shadow-md p-6">
+                <div class="lg:ml-6 mb-4 lg:mb-0 flex-shrink-0">
+                    <img src="./images/7.jpg" onerror="this.onerror=null;this.src='https://placehold.co/200x150/000000/FFFFFF?text=Affordable+Moving';" alt="نقل أثاث بأسعار مناسبة" class="w-48 h-36 object-cover rounded-lg shadow-sm">
+                </div>
+                <div class="text-center lg:text-right flex-grow">
+                    <h3 class="text-2xl font-bold text-black mb-2">نقل أثاث بأسعار مناسبة</h3>
+                    <p class="text-gray-700 mb-4">
+                        نقدم أفضل الأسعار التنافسية لخدمات نقل الأثاث دون المساومة على جودة الخدمة أو أمان منقولاتك.
+                    </p>
+                    <button class="bg-medium-gray text-white px-6 py-2 rounded-full hover:bg-gray-600 transition-colors duration-200">اقرأ المزيد</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 7. Footer -->
+    <footer class="bg-black py-8 px-6 md:px-12 mt-12">
+        <div class="container mx-auto text-center text-white text-sm">
+            <p class="mb-2">Copyright © 2024</p>
+            <p>جميع الحقوق محفوظة لـ <span class="text-hot-pink">مكة لنقل الأثاث</span> بجميع مناطق الجمهورية | مصر مصر</p>
+        </div>
+    </footer>
+
+    <!-- Floating Call Button -->
+    <button class="call-trigger fixed bottom-5 left-5 bg-green-500 text-white py-3 px-5 rounded-lg shadow-lg flex items-center space-x-2 space-x-reverse z-30 hover:bg-green-600 transition-transform hover:scale-105">
+        <i class="fas fa-phone-alt"></i>
+        <span class="font-bold">01117345557</span>
+    </button>
+    
+    <!-- Confirmation Modal -->
+    <div id="confirmation-modal" class="fixed inset-0 bg-black bg-opacity-60 flex items-center justify-center z-50 hidden">
+        <div class="bg-white rounded-lg shadow-2xl p-6 md:p-8 w-11/12 max-w-md text-center" id="modal-content">
+            <!-- Step 1: Confirmation -->
+            <div id="modal-step-1">
+                <div class="text-yellow-500 mb-4">
+                    <i class="fas fa-exclamation-triangle fa-3x"></i>
+                </div>
+                <h2 class="text-2xl font-bold text-gray-800 mb-3">هل أنت متأكد؟</h2>
+                <p class="text-gray-600 mb-6">سيؤدي هذا الإجراء إلى بدء مكالمة هاتفية. نرجو التأكيد فقط إذا كنت جادًا في التواصل معنا.</p>
+                <div class="flex justify-center gap-4">
+                    <button id="modal-cancel" class="bg-gray-300 text-gray-800 font-bold py-2 px-6 rounded-lg hover:bg-gray-400 transition-colors">إلغاء</button>
+                    <button id="modal-confirm" class="bg-green-500 text-white font-bold py-2 px-6 rounded-lg hover:bg-green-600 transition-colors">نعم، أريد الاتصال</button>
+                </div>
+            </div>
+            <!-- Step 2: Final Call Action -->
+            <div id="modal-step-2" class="hidden">
+                 <div class="text-green-500 mb-4">
+                    <i class="fas fa-phone-alt fa-3x fa-beat"></i>
+                </div>
+                <h2 class="text-2xl font-bold text-gray-800 mb-4">اضغط على الرقم للاتصال</h2>
+                <a href="tel:01117345557" class="inline-block bg-green-100 text-green-700 text-3xl font-bold py-4 px-8 rounded-full border-2 border-green-500 hover:bg-green-200 transition-colors">
+                    01117345557
+                </a>
+                 <button id="modal-close-final" class="mt-6 text-gray-500 hover:text-gray-700 text-sm">إغلاق النافذة</button>
+            </div>
+        </div>
+    </div>
+
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // --- Mobile Menu Logic ---
+            const mobileMenuButton = document.getElementById('mobile-menu-button');
+            const mobileMenu = document.getElementById('mobile-menu');
+            const mobileMenuOverlay = document.getElementById('mobile-menu-overlay');
+            const closeMobileMenu = document.getElementById('close-mobile-menu');
+
+            function toggleMobileMenu() {
+                mobileMenu.classList.toggle('active');
+                mobileMenuOverlay.classList.toggle('active');
+            }
+
+            if (mobileMenuButton) mobileMenuButton.addEventListener('click', toggleMobileMenu);
+            if (closeMobileMenu) closeMobileMenu.addEventListener('click', toggleMobileMenu);
+            if (mobileMenuOverlay) mobileMenuOverlay.addEventListener('click', toggleMobileMenu);
+
+            // --- Slideshow Logic ---
+            const slides = document.querySelectorAll('.slide');
+            if (slides.length > 0) {
+                let currentSlide = 0;
+                const slideInterval = 2000; // 2 seconds
+
+                function showSlide(index) {
+                    slides.forEach((slide, i) => {
+                        slide.style.opacity = i === index ? '1' : '0';
+                    });
+                }
+
+                showSlide(currentSlide);
+                setInterval(() => {
+                    currentSlide = (currentSlide + 1) % slides.length;
+                    showSlide(currentSlide);
+                }, slideInterval);
+            }
+
+            // --- Confirmation Modal Logic ---
+            const modal = document.getElementById('confirmation-modal');
+            const modalContent = document.getElementById('modal-content');
+            const step1 = document.getElementById('modal-step-1');
+            const step2 = document.getElementById('modal-step-2');
+            const confirmBtn = document.getElementById('modal-confirm');
+            const cancelBtn = document.getElementById('modal-cancel');
+            const closeFinalBtn = document.getElementById('modal-close-final');
+            const callTriggers = document.querySelectorAll('.call-trigger');
+
+            const openModal = () => {
+                if (!modal) return;
+                // Reset to first step
+                step1.classList.remove('hidden');
+                step2.classList.add('hidden');
+                
+                modal.classList.remove('hidden');
+                // Allow fadeIn animation
+                setTimeout(() => {
+                    modalContent.style.transform = 'scale(1)';
+                    modalContent.style.opacity = '1';
+                }, 10); 
+            };
+
+            const closeModal = () => {
+                if (!modal) return;
+                modalContent.style.transform = 'scale(0.95)';
+                modalContent.style.opacity = '0';
+                // Wait for animation to finish before hiding
+                setTimeout(() => {
+                    modal.classList.add('hidden');
+                }, 200); 
+            };
+
+            callTriggers.forEach(trigger => {
+                trigger.addEventListener('click', (event) => {
+                    event.preventDefault(); // Prevent default action (like following a href="#")
+                    openModal();
+                });
+            });
+
+            if(confirmBtn) {
+                confirmBtn.addEventListener('click', () => {
+                    step1.classList.add('hidden');
+                    step2.classList.remove('hidden');
+                });
+            }
+
+            if(cancelBtn) cancelBtn.addEventListener('click', closeModal);
+            if(closeFinalBtn) closeFinalBtn.addEventListener('click', closeModal);
+            
+            // Close modal if user clicks on the background overlay
+            if(modal) {
+                modal.addEventListener('click', (event) => {
+                    if (event.target === modal) {
+                        closeModal();
+                    }
+                });
+            }
+        });
+    </script>
+
+</body>
+</html>
+
